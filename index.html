@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="caja">
+            <img class="img-caja" src="img/Logo.png" alt="logo">
+            <h2 class="encabezado">Encriptador de textos</h2>
+        </div>
+    </header>
+
+    <main>
+        <div class="left">
+            <input class="input-text" id="input-text" type="text" placeholder="Ingrese el texto aqui">
+        </div>
+        
+        <div class="btn">
+            <img class="img-left" src="img/Frame 1.png" alt=".">
+            <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
+            <button class="btn-desencriptar" type="button" onclick="desencriptar()">Desencriptar</button>
+        </div>
+    
+        <div class="right">
+            <img src="img/Muñeco.png" class="img-right" id="img-right">
+            <h2 class="text-right" id="text-right">Ningun texto fue encontrado</h2>
+            <textarea name="" id="text2-right" cols="30" rows="10">Ingrese texto que desee encriptar o desencriptar</textarea>
+            <button id="btn-copiar" type="button" onclick="copiar()">Copiar</button>
+        </div>
+    </main>
+
+    <footer>
+        <p class="descripcion">Desarrollado por Alegre Noelia</p>
+    </footer>
+</body>
+</html>
